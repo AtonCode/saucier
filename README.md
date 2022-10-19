@@ -1,21 +1,21 @@
-# Saucier
-## De la cocina y bar a tu casa!
+# Saucier 👩‍🍳
+## De la cocina y bar 🍻  a tu casa!
 Plataforma web para artista de la cocina y amantes de la comida
 
-## Pantallas
+## 🗺️ Pantallas
 
 ![](ImgREADME/Pantallas.png)
 
-## Casos de uso
+## 🎭 Casos de uso
 
-## Modelos
+## 🩻 Modelos
 ### Clases
-### Arquitectura
-### Tecnologia
+### 🏠 Arquitectura
+### 🏗️ Tecnologia
 
-## Guia Estilo de Codigo
+## 🐩 Guia Estilo de Codigo
 
-## Instalacion
+## 🛠️ Instalacion
 Descargar e instalar **node.js**
 Lugo instalar **Angular CLI** con el siguente comando:
 ``` npm install -g @angular/cli ```
