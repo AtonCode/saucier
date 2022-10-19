@@ -9,7 +9,7 @@ Plataforma web para artista de la cocina y amantes de la comida
 ## 🎭 Casos de uso
 
 ## 🩻 Modelos
-### Clases
+### 🧩 Clases
 ### 🏠 Arquitectura
 ### 🏗️ Tecnologia
 
