@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcd9a7), to(#fefefe));
+    font-family: 'Courier New', Courier, monospace;
+
+}

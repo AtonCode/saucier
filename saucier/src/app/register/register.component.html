@@ -1,0 +1,30 @@
+<section class="vh-100">
+
+  <div class="container py-5 h-100">
+    <div class="row d-flex align-items-center justify-content-center h-100">
+
+      <div class="Card">
+        <br />
+        <h1>Register</h1>
+        <br />
+        <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate >
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input name="username" ngModel type="text" id="form1Example13" class="form-control form-control-lg" />
+            <label class="form-label" for="form1Example13">Email address</label>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-4">
+            <input name="password" ngModel type="password" id="form1Example23" class="form-control form-control-lg" />
+            <label class="form-label" for="form1Example23">Password</label>
+          </div>
+          
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Save</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
