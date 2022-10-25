@@ -32,11 +32,16 @@ export class UsersServiceService {
     return this._httpClient.get<number>('http://localhost:8080/pantera/maxId');
   }
 
+  validarLogin(){
+    var pass: boolean = false;
+    localStorage.getItem('token') == "ok".concat(this.userLogin.id.toString())? pass = true : pass = false;
+    return pass;
+  }
 
   login(user: User) {
     var pass: boolean = false;
     this.userLogin = user;
-    localStorage.setItem('token', "ok");
+    localStorage.setItem('token', "ok".concat(user.id.toString()));
     this.users.find(p => user.username == p.username) ? pass = true : pass = false;
 
     return pass;
