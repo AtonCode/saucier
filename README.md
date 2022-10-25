@@ -5,6 +5,9 @@ Plataforma web para artista de la cocina y amantes de la comida
 ## 🗺️ Pantallas
 
 ![](ImgREADME/Pantallas.png)
+![](ImgREADME/home.png)
+![](ImgREADME/login.png)
+![](ImgREADME/register.png)
 
 ## 🎭 Casos de uso
 
