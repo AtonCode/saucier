@@ -8,14 +8,18 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' },
-  { path: 'login', component: LoginComponent},
-  { path: 'home', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent,canActivate: [AuthGuard] },
-  { path: 'register', redirectTo: 'register', pathMatch: 'full' },
-  { path: 'register', component:RegisterComponent },
+  
   { path: 'profile', redirectTo: 'profile', pathMatch: 'full' },
   { path: 'profile', component: UserProfileComponent ,canActivate: [AuthGuard] },
+
+  { path: 'login', redirectTo: 'login', pathMatch: 'full' },
+  { path: 'login', component: LoginComponent},
+
+  { path: 'register', redirectTo: 'register', pathMatch: 'full' },
+  { path: 'register', component:RegisterComponent },
+  
   { path: '**', redirectTo: 'pageNotFound', pathMatch: 'full' },
   { path: 'pageNotFound', component: PageNotFoundComponent }
 
